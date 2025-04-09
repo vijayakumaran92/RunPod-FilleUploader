@@ -3,7 +3,7 @@ import os
 import sys
 
 def main(tus_id):
-    workspace_dir = '/workspace'
+    workspace_dir = '/workspace/ComfyUI/input'
     info_file_path = os.path.join(workspace_dir, f"{tus_id}.info")
     upload_file_path = os.path.join(workspace_dir, tus_id)
 
