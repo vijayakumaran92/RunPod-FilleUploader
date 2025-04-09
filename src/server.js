@@ -47,7 +47,7 @@ app.use(dashboardRoutes);
 // Start the tusd server
 const tusdBinaryPath = 'tusd'; // Make sure this path is correct
 const tusdArgs = [
-  '-upload-dir', path.join('/workspace'), // Directory to store uploads
+  '-upload-dir', path.join('/workspace/ComfyUI/input'), // Directory to store uploads
   '-hooks-dir', path.join('/etc/tusd/hooks'), // Directory where hook scripts are located
   '-behind-proxy'
 ];
